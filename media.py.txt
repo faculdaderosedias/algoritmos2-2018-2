@@ -1,0 +1,4 @@
+n1 = input("informe a nota 1")
+n2 = input("informe a note 2")
+media = float((n1 + n2)) / int(2)
+print("A média é",media)
