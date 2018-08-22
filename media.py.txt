@@ -1,4 +1,25 @@
 n1 = input("informe a nota 1")
-n2 = input("informe a note 2")
-media = float((n1 + n2)) / int(2)
-print("A m�dia �",media)
+n2 = input("informe a nota 2")
+n3 = input("informe a nota 3")
+media = float((n1 + n2 + n3)) / int(3)
+print("A média é",media)
+
+def maior():
+    if n1 > n2 and n3 and n1:
+        print n1, 'este é o maior numero!'
+    elif n2 > n1 and n3:
+        print n2,'este é o maior numero!'
+    elif n3 > n1 and n2:
+        print n3,'este é o maior numero!'
+    #numerosiguais
+    elif n1 == n2 and n1 and n2 > n3:
+        print n1,'é','o maior!'
+    elif n1 == n3 and n1 and n3 > n2:
+        print n1,'é','o maior!'
+    elif n2 == n3 and n2 and n3 > n1:
+        print n2,'é','o maior!'
+    #todosiguais
+    elif n1 == n2 and n3:
+        print 'todos o numeros são iguais'
+
+maior()   #chama metodo para descubrir o maior
