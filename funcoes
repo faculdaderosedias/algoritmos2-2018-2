@@ -1,0 +1,5 @@
+"""Define funcoes"""
+
+  def media(a,b):
+  """Calcula a media de dois numeros"""
+    return (a+b)/2

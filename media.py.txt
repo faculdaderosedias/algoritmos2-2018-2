@@ -4,6 +4,7 @@ n3 = input("informe a nota 3")
 media = float((n1 + n2 + n3)) / int(3)
 print("A média é",media)
 
+
 def maior():
     if n1 > n2 and n3 and n1:
         print n1, 'este é o maior numero!'
