@@ -5,6 +5,7 @@
 import  pyautogui
 import pygame
 from pygame.locals import *
+from tkinter import *
 
 
 # Constantes
