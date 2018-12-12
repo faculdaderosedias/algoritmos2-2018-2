@@ -6,8 +6,6 @@ class No:
         self.salto = None
 
 
-
-
     def __str__(self):
         if self.anterior is None and self.proximo is None:
             return f"|\t Anterior: {self.anterior} \t|\t Nó: {self.dado} \t|\t Próximo: {self.proximo} \t|"
